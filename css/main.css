@@ -2,14 +2,18 @@ html {
   font-family: Muli, sans-serif;
 }
 
+.no-under {
+  text-decoration: none;
+}
+
 .banner {
-  background: linear-gradient(to top, rgba(27, 22, 24, .3), transparent) no-repeat center top / 100% 100%, url("../images/banner-2.jpg") no-repeat center top / cover;
+  background: linear-gradient(to top, rgba(27, 22, 24, .3), transparent) no-repeat center top / 100% 100%, url("../images/rc-dark.png") no-repeat center top / cover;
   padding-top: 47%;
   min-height: 500px;
 }
 
 .banner-content {
-  font-family: Lato, sans-serif;
+  font-family: Muli, sans-serif;
   color: white;
   width: 90%;
 }
@@ -21,29 +25,42 @@ html {
 
 .btn-nav {
   text-decoration: none;
-  color: #1b1618;
+  color: #0f2639;
   display: inline-block;
   width: 100%;
 }
 
 .btn-nav:hover {
   background-color: #fff;
-  color: #ff8b00;
+  color: #1b938f;
   border-radius: 5px;
 }
 
 .btn-ghost {
-  background-color: #ff8b00;
-  border: solid 2px #ff8b00;
-  color: #1b1618;
+  background-color: inherit;
+  border: solid 2px #fff;
+  color: #fff;
+  font-weight: 600;
 }
 
 .btn-ghost:hover {
-  background-color: #70d9eb;
-  border: solid 2px #70d9eb;
-  color: #1b1618;
+  background-color: #1b938f;
+  border: solid 2px #1b938f;
+  color: #fff;
 }
 
+.btn-ghost-member {
+  background-color: inherit;
+  border: solid 2px #fff;
+  color: #fff;
+  font-weight: 600;
+}
+
+.btn-ghost-member:hover {
+  background-color: #0f2639;
+  border: solid 2px #0f2639;
+  color: #fff;
+}
 /* .masthead-container {
   width: 95%;
 } */
@@ -134,7 +151,8 @@ html {
 
 .btn-nav-footer {
   text-decoration: none;
-  border-bottom: 1px solid #ff8b00;
+  border-bottom: 1px solid #1b938f;
+  color: #1b938f;
 }
 
 .btn-nav-footer:hover {
@@ -143,15 +161,13 @@ html {
 }
 
 footer {
-  background-color: #1b1618;
+  background-color: #0f2639;
 }
 
-/* ------- adopt page ---------- */
+/* ------- artists page ---------- */
 
 .current {
-  background-color: #ff8b00;
-  color: #1b1618;
-  border-radius: 5px;
+  color: #1b938f;
 }
 
 .current-footer {
@@ -242,9 +258,9 @@ input[type="checkbox"] + label::before {
   color: #ff8b00;
 }
 
-/* ------------ rescue page ----------- */
+/* ------------ events page ----------- */
 
-.banner-rescue {
+.banner-event {
   background: linear-gradient(to top, rgba(27, 22, 24, .3), transparent) no-repeat center top / 100% 100%, url("../images/banner-rescue-2.jpg") no-repeat center center  / cover;
   padding-top: 35%;
   min-height: 500px;
@@ -267,4 +283,20 @@ input[type="checkbox"] + label::before {
     text-align: left;
   }
 
+}
+
+/* ------- artists page ---------- */
+
+.card-link {
+  color: #0f2639;
+  font-weight: 600;
+}
+
+.card-link:hover {
+  color: #1b938f;
+  font-weight: 600;
+}
+
+.member-apply {
+  background-color: #1b938f;
 }

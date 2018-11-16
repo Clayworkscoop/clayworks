@@ -1,6 +1,6 @@
 /*
   Gridifier || Code released under the UNLICENSE
-  https://gridifier.web-dev.tools/#xs,4,0,0,0;s,4,25,0,0;m,4,38,1,1;l,4,60,1,1
+  https://gridifier.web-dev.tools/#xs,4,0,0,0;s,4,25,0,0;m,4,38,1,1;l,5,60,1,1
 */
 
 .grid {
@@ -719,6 +719,74 @@
     left: -75%;
   }
 
+  .unit-l-1-5,
+  .l-1-5 {
+    width: 20%;
+  }
+
+  .unit-offset-l-1-5 {
+    margin-left: 20%;
+  }
+
+  .unit-push-l-1-5 {
+    left: 20%;
+  }
+
+  .unit-pull-l-1-5 {
+    left: -20%;
+  }
+
+  .unit-l-2-5,
+  .l-2-5 {
+    width: 40%;
+  }
+
+  .unit-offset-l-2-5 {
+    margin-left: 40%;
+  }
+
+  .unit-push-l-2-5 {
+    left: 40%;
+  }
+
+  .unit-pull-l-2-5 {
+    left: -40%;
+  }
+
+  .unit-l-3-5,
+  .l-3-5 {
+    width: 60%;
+  }
+
+  .unit-offset-l-3-5 {
+    margin-left: 60%;
+  }
+
+  .unit-push-l-3-5 {
+    left: 60%;
+  }
+
+  .unit-pull-l-3-5 {
+    left: -60%;
+  }
+
+  .unit-l-4-5,
+  .l-4-5 {
+    width: 80%;
+  }
+
+  .unit-offset-l-4-5 {
+    margin-left: 80%;
+  }
+
+  .unit-push-l-4-5 {
+    left: 80%;
+  }
+
+  .unit-pull-l-4-5 {
+    left: -80%;
+  }
+
   .unit-l-1-2,
   .l-1-2,
   .unit-l-1-3,
@@ -728,7 +796,15 @@
   .unit-l-1-4,
   .l-1-4,
   .unit-l-3-4,
-  .l-3-4 {
+  .l-3-4,
+  .unit-l-1-5,
+  .l-1-5,
+  .unit-l-2-5,
+  .l-2-5,
+  .unit-l-3-5,
+  .l-3-5,
+  .unit-l-4-5,
+  .l-4-5 {
     display: inline-block;
     visibility: visible;
   }
@@ -742,7 +818,15 @@
   .unit-l-1-4[class*="-content-"],
   .l-1-4[class*="-content-"],
   .unit-l-3-4[class*="-content-"],
-  .l-3-4[class*="-content-"] {
+  .l-3-4[class*="-content-"],
+  .unit-l-1-5[class*="-content-"],
+  .l-1-5[class*="-content-"],
+  .unit-l-2-5[class*="-content-"],
+  .l-2-5[class*="-content-"],
+  .unit-l-3-5[class*="-content-"],
+  .l-3-5[class*="-content-"],
+  .unit-l-4-5[class*="-content-"],
+  .l-4-5[class*="-content-"] {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
