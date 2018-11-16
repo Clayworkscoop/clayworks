@@ -1,0 +1,270 @@
+html {
+  font-family: Muli, sans-serif;
+}
+
+.banner {
+  background: linear-gradient(to top, rgba(27, 22, 24, .3), transparent) no-repeat center top / 100% 100%, url("../images/banner-2.jpg") no-repeat center top / cover;
+  padding-top: 47%;
+  min-height: 500px;
+}
+
+.banner-content {
+  font-family: Lato, sans-serif;
+  color: white;
+  width: 90%;
+}
+
+.icon-logo {
+  width: 130px;
+  height: 70px;
+}
+
+.btn-nav {
+  text-decoration: none;
+  color: #1b1618;
+  display: inline-block;
+  width: 100%;
+}
+
+.btn-nav:hover {
+  background-color: #fff;
+  color: #ff8b00;
+  border-radius: 5px;
+}
+
+.btn-ghost {
+  background-color: #ff8b00;
+  border: solid 2px #ff8b00;
+  color: #1b1618;
+}
+
+.btn-ghost:hover {
+  background-color: #70d9eb;
+  border: solid 2px #70d9eb;
+  color: #1b1618;
+}
+
+/* .masthead-container {
+  width: 95%;
+} */
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.logo-div {
+  text-align: center;
+}
+
+.no-deco {
+  list-style-type: none;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .logo-div {
+    text-align: left;
+  }
+
+}
+
+.wrapper {
+  background-color: rgba(27, 22, 24, 0);
+}
+
+.orange {
+  color: #ff8b00;
+}
+
+.lato {
+  font-family: lato, sans-serif;
+}
+
+.brown {
+  color: #1b1618;
+}
+
+.light-brown {
+  color: rgba(27, 22, 24, .75);
+}
+
+.white {
+  color: #fff;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .intro-length {
+    margin-left: auto;
+    margin-right: auto;
+    width: 32em;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .intro-length {
+    width: 50%;
+  }
+
+  .icon-logo {
+    width: 170px;
+    height: 91px;
+  }
+
+}
+
+@media only screen and (min-width: 65em) {
+
+  .intro {
+    width: 55em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+
+/* ------- footer -------- */
+
+.icon-social {
+  height: 35px;
+  width: 35px;
+}
+
+.btn-nav-footer {
+  text-decoration: none;
+  border-bottom: 1px solid #ff8b00;
+}
+
+.btn-nav-footer:hover {
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+
+footer {
+  background-color: #1b1618;
+}
+
+/* ------- adopt page ---------- */
+
+.current {
+  background-color: #ff8b00;
+  color: #1b1618;
+  border-radius: 5px;
+}
+
+.current-footer {
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.banner-adopt {
+  background: linear-gradient(to top, rgba(27, 22, 24, .3), transparent) no-repeat center top / 100% 100%, url("../images/banner-adopt-1.jpg") no-repeat center center / cover;
+  padding-top: 35%;
+  min-height: 500px;
+}
+
+.hang-punc {
+  margin-left: -1.3em;
+  width: 1.2em;
+}
+
+fieldset,
+.fieldset {
+  border-top: none;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .space-left {
+    padding-left: .75rem;
+  }
+
+  .space-right {
+    padding-right: .75rem;
+  }
+
+  .hang-punc {
+    margin-left: -2em;
+    width: 1.4em;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .space-left {
+    padding-left: 1.5rem;
+  }
+
+  .space-right {
+    padding-right: 1.5rem;
+  }
+
+  .hang-punc {
+    margin-left: -2.3em;
+    width: 1.6em;
+  }
+
+}
+
+input,
+select {
+  display: block;
+  width: 100%;
+  background-color: rgba(255, 139, 0, .07);
+  border: 1px solid rgba(27, 22, 24, .5);
+  border-radius: 5px;
+  height: 35px;
+}
+
+textarea {
+  display: block;
+  width: 100%;
+  background-color: rgba(255, 139, 0, .07);
+  border: 1px solid rgba(27, 22, 24, .5);
+  border-radius: 5px;
+  height: 6em;
+}
+
+input[type="radio"] + label::before,
+input[type="checkbox"] + label::before {
+  border: 1px solid rgba(27, 22, 24, .5);
+  background-color: rgba(255, 139, 0, .07);
+}
+
+.hr-form {
+  border-top: solid 2px rgba(27, 22, 24, .25);
+}
+
+.link-details:hover {
+  color: #ff8b00;
+}
+
+/* ------------ rescue page ----------- */
+
+.banner-rescue {
+  background: linear-gradient(to top, rgba(27, 22, 24, .3), transparent) no-repeat center top / 100% 100%, url("../images/banner-rescue-2.jpg") no-repeat center center  / cover;
+  padding-top: 35%;
+  min-height: 500px;
+}
+
+.txt-left-right-left {
+  text-align: left;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .txt-left-right-left {
+    text-align: right;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+
+  .txt-left-right-left {
+    text-align: left;
+  }
+
+}
