@@ -61,6 +61,19 @@ html {
   border: solid 2px #0f2639;
   color: #fff;
 }
+
+.btn-class {
+  background-color: #1b938f;
+  border: solid 2px #1b938f;
+  color: #fff;
+  font-weight: 600;
+}
+
+.btn-class:hover {
+  background-color: #0f2639;
+  border: solid 2px #0f2639;
+  color: #fff;
+}
 /* .masthead-container {
   width: 95%;
 } */
@@ -111,7 +124,8 @@ html {
 
 @media only screen and (min-width: 38em) {
 
-  .intro-length {
+  .intro-length,
+  .intro-length-2 {
     margin-left: auto;
     margin-right: auto;
     width: 32em;
@@ -123,6 +137,11 @@ html {
 
   .intro-length {
     width: 50%;
+  }
+
+  .intro-length-2 {
+    margin-left: 0;
+    width: 85%;
   }
 
   .icon-logo {
@@ -292,6 +311,10 @@ input[type="checkbox"] + label::before {
   font-weight: 600;
 }
 
+.card-events {
+  color: #000;
+}
+
 .card-link:hover {
   color: #1b938f;
   font-weight: 600;
@@ -299,4 +322,20 @@ input[type="checkbox"] + label::before {
 
 .member-apply {
   background-color: #1b938f;
+}
+
+.green {
+  color: #1b938f;
+}
+
+.leading-tight {
+  line-height: 1;
+}
+
+.leading-tight-half {
+  line-height: 1.15;
+}
+
+.small-caps {
+  text-transform: uppercase;
 }
