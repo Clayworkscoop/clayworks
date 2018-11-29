@@ -3,3 +3,13 @@ layout: default
 ---
 
   {{content}}
+
+<div class="">
+  <ul>
+    {% for artist in site.artists %}
+     <li>
+       <a href="{{site.baseurl}}/artists/{{artists.slug}}/" class="{% if page.url contains artists.slug %}current{% endif %}">{{artists.title}}</a>
+     </li>
+    {% endfor %}
+  </ul>
+</div>
