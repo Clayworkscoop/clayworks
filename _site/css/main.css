@@ -56,6 +56,18 @@ html {
   font-weight: 600;
 }
 
+.btn-ghost-reversed {
+  background-color: #1b938f;
+  border: solid 1px #1b938f;
+  color: #fff;
+}
+
+.btn-ghost-reversed:hover {
+  background-color: inherit;
+  border: solid 1px #fff;
+  color: #fff;
+}
+
 .btn-ghost-member:hover {
   background-color: #0f2639;
   border: solid 2px #0f2639;

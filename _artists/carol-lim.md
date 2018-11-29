@@ -2,10 +2,28 @@
 layout: artists-profile
 title: Carol Lim
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec dui eu tellus tempus iaculis.
-artistImage: /images/circle-dark.png
+artistImage: circle-green.png
+artistImage_alt: Lorem ipsum dolor sit amet
 galleryTitle: Carol's Gallery
-artImage: /images/sq-green.png
-
+galleryDescription: Nulla vitae arcu in ipsum commodo auctor interdum eleifend justo rinterdum eleifend justo. Suspendisse tempus diam mi, et fa. Suspendisse tempus diam mi, et fa.
+artImage_1: sq-green.png
+artImage_1_alt:
+artImage_2: sq-dark.png
+artImage_2_alt:
+artImage_3: sq-green.png
+artImage_3_alt:
+artImage_4: sq-dark.png
+artImage_4_alt:
+artImage_5: sq-green.png
+artImage_5_alt:
+artImage_6: sq-dark.png
+artImage_6_alt:
+artImage_7: sq-green.png
+artImage_7_alt:
+artImage_8: sq-dark.png
+artImage_8_alt:
+contactArtist: Contact Carol
+contactArtist_email: mailto:lorem@gmail.com
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec dui eu tellus tempus iaculis. Phasellus quis justo sem. Nam est lacus, gravida fringilla augue facilisis, eleifend mattis augue.

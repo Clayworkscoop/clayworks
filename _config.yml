@@ -1,4 +1,3 @@
-markdown: redcarpet
 baseurl: /clayworks
 exclude: ['README.md']
 permalink: pretty
@@ -6,4 +5,4 @@ permalink: pretty
 collections:
   artists:
     output: true
-    permalink: /:artists/:path/
+    permalink: /artists/:path/
