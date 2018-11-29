@@ -1,3 +1,4 @@
 markdown: redcarpet
 baseurl: /clayworks
-exclude: [README.md]
+exclude: ['README.md']
+permalink: pretty
