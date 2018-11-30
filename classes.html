@@ -1,54 +1,16 @@
-<!DOCTYPE html>
-<html lang="en-ca">
-<head>
-  <meta charset="utf-8">
-  <title>Pottery Classes • ClayWorks Co-op, Ottawa</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="css/module.css" rel="stylesheet">
-  <link href="css/grid.css" rel="stylesheet">
-  <link href="css/type.css" rel="stylesheet">
-  <link href="css/main.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Muli:400,600,800" rel="stylesheet">
-
-</head>
-<body>
-
-  <ul class="skip-links">
-    <li><a href="#main">Jump to main content</a></li>
-    <li><a href="#nav">Jump to navigation</a></li>
-  </ul>
-
-  <header role="banner">
-    <div class="masthead-container">
-      <div class="masthead grid grid-middle">
-        <div class="logo-div unit xs-1 m-1-3 l-1-2">
-          <a class="inline-block pad-t-1-8 gutter-1-2" href="./index.html">
-            <i class="icon icon-logo"><img class="img-flex" src="images/logo-dark.svg" alt=""></i>
-          </a>
-        </div>
-
-        <nav class="nav center-block text-center unit xs-1 m-2-3 l-1-2" role="navigation" id="nav" tabindex="0">
-          <ul class="nav-list list-group grid bold">
-            <li class="inline-block unit xs-1-2 s-1-4"><a class="btn-nav pad-t-1-4 pad-b-1-4" href="./index.html">Home</a></li>
-            <li class="inline-block unit xs-1-2 s-1-4"><a class="btn-nav pad-t-1-4 pad-b-1-4 current" href="./classes.html">Classes</a></li>
-            <li class="inline-block unit xs-1-2 s-1-4"><a class="btn-nav pad-t-1-4 pad-b-1-4" href="./artists.html">Artists</a></li>
-            <li class="inline-block unit xs-1-2 s-1-4"><a class="btn-nav pad-t-1-4 pad-b-1-4" href="./events.html">Events</a></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-
+---
+layout: default
+title: Classes
+description: Great opportunity to learn pottery techniques our artists.
+---
     <div class="banner pad-t-2 relative push-2">
       <div class="banner-content text-center pin-c max-length">
         <h1 class="nina value bold pad-t push-1-2">Great classes</h1>
         <p class="tera push-2">Join our pottery classes to learn amazing techniques and create something special.</p>
-        <a class="btn btn-ghost push mega gutter" href="./artists.html">Register</a>
+        <a class="btn btn-ghost push mega gutter" href="{{site.baseurl}}/artists/">Register</a>
       </div>
     </div>
 
-  </header>
-
-  <main role="main" id="main" tabindex="0">
     <section class="intro pad-t">
       <div class="grid">
 
@@ -78,7 +40,7 @@
         </div>
         <div class="unit xs-1 s-1 l-1-3 gutter unit-pull-l-1-2 intro-length push">
           <div class="embed embed-1by1">
-            <img class="img-flex embed-item" src="images/brown-clay.jpg" alt="">
+            <img class="img-flex embed-item" src="{{site.baseurl}}/images/sq-green.png" alt="">
           </div>
         </div>
         <div class="unit xs-1 l-3-4 push gutter intro-length-2">
@@ -94,10 +56,10 @@
 
       <div class="grid">
         <div class="unit xs-1 m-1-2 l-1-3 push">
-          <div class="no-under card-events" href="">
+          <div class="no-under card-events">
             <div class="gutter-1-2">
               <div class="embed embed-1by1 push">
-                <img class="img-flex embed-item" src="images/gray-clay.jpg" alt="">
+                <img class="img-flex embed-item" src="{{site.baseurl}}/images/sq-green.png" alt="">
               </div>
               <h2 class="giga bold push-1-2 leading-tight-half">Grey clay <br>techniques<br></h2>
               <h3 class="bold kilo push-1-2">4 Dec.-14 Jan</h3>
@@ -115,10 +77,10 @@
           </div>
         </div>
         <div class="unit xs-1 m-1-2 l-1-3 push">
-          <div class="no-under card-events" href="">
+          <div class="no-under card-events">
             <div class="gutter-1-2">
               <div class="embed embed-1by1 push">
-                <img class="img-flex embed-item" src="images/valentines-day.jpeg" alt="">
+                <img class="img-flex embed-item" src="{{site.baseurl}}/images/sq-green.png" alt="">
               </div>
               <h2 class="giga bold push-1-2 leading-tight-half">Pottery for <br>St. Valentine's</h2>
               <h3 class="bold kilo push-1-2">13 Feb. 5<span class="small-caps">pm</span></h3>
@@ -136,10 +98,10 @@
           </div>
         </div>
         <div class="unit xs-1 m-1-2 l-1-3 push">
-          <div class="no-under card-events" href="">
+          <div class="no-under card-events">
             <div class="gutter-1-2">
               <div class="embed embed-1by1 push">
-                <img class="img-flex embed-item" src="images/easter-eggs.jpg" alt="">
+                <img class="img-flex embed-item" src="{{site.baseurl}}/images/sq-green.png" alt="">
               </div>
               <h2 class="giga bold push-1-2 leading-tight-half">Easter Bunnies and Eggs</h2>
               <h3 class="bold kilo push-1-2">20 April. 5<span class="small-caps">pm</span></h3>
@@ -158,55 +120,3 @@
         </div>
       </div>
     </section>
-
-  <footer class="white pad-b-1-2" role="contentinfo" tabindex="0">
-    <div class="grid grid-middle gutter-1-2 text-center">
-      <div class="unit xs-1 m-1 l-1-3 gutter-1-2 pad-t-1-2 pad-b-1-2">
-        <a class="inline-block" href="./index.html">
-          <i class="icon icon-logo"><img class="img-flex" src="images/logo-white.svg" alt="Logo of the Loyal rescue."></i>
-        </a>
-      </div>
-      <div class="unit xs-1 m-1-2 l-1-3 gutter-1-2 pad-b-1-2 pad-t-1-2">
-        <div class="contact">
-          <h3 class="mega push-1-4">Contact us:</h3>
-          <address class="normal milli"><span class="kilo">(613) 876-1234</span><br>949b Gladstone Ave, <br>Ottawa, ON K1Y3E5<br>info.clayworks@gmail.com</address>
-        </div>
-      </div>
-      <div class="unit xs-1 m-1-2 l-1-3 gutter-1-2 pad-b-1-2 pad-t-1-2">
-        <div class="social">
-          <ul class="list-group-inline push-1-2">
-            <li class="gutter-1-8">
-              <a href="https://www.facebook.com">
-                <i class="icon icon-social"><img class="img-flex" src="images/facebook.svg" alt="Logo of facebook.com"></i>
-              </a>
-            </li>
-            <li class="gutter-1-8">
-              <a href="https://www.instagram.com/">
-                <i class="icon icon-social"><img class="img-flex" src="images/instagram.svg" alt="Logo of instagram.com"></i>
-              </a>
-            </li>
-            <li class="gutter-1-8">
-              <a href="https://twitter.com/?lang=en">
-                <i class="icon icon-social"><img class="img-flex" src="images/twitter.svg" alt="Logo of twitter.com"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="nav-footer">
-          <ul class="nav-list list-group-inline milli push-1-2">
-            <li class="gutter-1-2"><a class="pad-t-1-4 pad-b-1-8 btn-nav-footer" href="./index.html">Home</a></li>
-            <li><a class="pad-t-1-4 pad-b-1-8 btn-nav-footer" href="./classes.html">Classes</a></li>
-            <li class="gutter-1-2"><a class="pad-t-1-4 pad-b-1-8 btn-nav-footer" href="./artists.html">Artists</a></li>
-            <li><a class="pad-t-1-4 pad-b-1-8 btn-nav-footer" href="./events.html">Events</a></li>
-          </ul>
-        </div>
-        <div class="micro normal rights">
-          <p class="push-1-8">© ClayWorks © 2018 | All Rights Reserved.</p>
-          <p class="push-0">Created by <span class="micro designer">#ten-2</span></p>
-        </div>
-      </div>
-
-    </div>
-  </footer>
-</body>
-</html>

@@ -11,7 +11,7 @@ ul > li::before {
 }
 
 .banner {
-  background: linear-gradient(to top, rgba(27, 22, 24, .3), transparent) no-repeat center top / 100% 100%, url("../images/home-banner.jpg") no-repeat center top / cover;
+  background: linear-gradient(to top, rgba(27, 22, 24, .3), transparent) no-repeat center top / 100% 100%, url("../images/rc-dark.png") no-repeat center top / cover;
   padding-top: 47%;
   min-height: 500px;
 }

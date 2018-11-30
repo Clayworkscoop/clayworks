@@ -1,0 +1,8 @@
+baseurl: /clayworks
+exclude: ['README.md']
+permalink: pretty
+
+collections:
+  artists:
+    output: true
+    permalink: /artists/:path/

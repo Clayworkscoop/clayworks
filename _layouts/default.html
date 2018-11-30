@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>{% if page.title %}{{page.title}} · {% endif %}Clayworks Co-op · Ottawa, Canada</title>
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="{{site.baseurl}}/css/site.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,600,800" rel="stylesheet">
+</head>
+
+<body>
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+
+  <header role="banner">
+    <div class="masthead-container">
+      <div class="masthead grid grid-middle">
+        <div class="logo-div unit xs-1 m-1-3 l-1-2">
+          <a class="inline-block gutter pad-t-1-4 pad-b-1-4" href="{{site.baseurl}}/">
+            <div class="gutter-1-2">
+              <i class="icon icon-logo"><img class="img-flex" src="{{site.baseurl}}/images/logo-dark.svg" alt=""></i>
+            </div>
+          </a>
+        </div>
+
+        <nav class="nav center-block text-center unit xs-1 m-2-3 l-1-2" role="navigation" id="nav" tabindex="0">
+          <ul class="nav-list list-group grid bold">
+            <li class="inline-block unit xs-1-2 s-1-4"><a class="btn-nav pad-t-1-4 pad-b-1-4 {% if page.url == '/' %}current{% endif %}" href="{{site.baseurl}}/">Home</a></li>
+            <li class="inline-block unit xs-1-2 s-1-4"><a class="btn-nav pad-t-1-4 pad-b-1-4 {% if page.url contains '/classes' %}current{% endif %}" href="{{site.baseurl}}/classes/">Classes</a></li>
+            <li class="inline-block unit xs-1-2 s-1-4"><a class="btn-nav pad-t-1-4 pad-b-1-4 {% if page.url contains '/artists' %}current{% endif %}" href="{{site.baseurl}}/artists/">Artists</a></li>
+            <li class="inline-block unit xs-1-2 s-1-4"><a class="btn-nav pad-t-1-4 pad-b-1-4 {% if page.url contains '/events' %}current{% endif %}" href="{{site.baseurl}}/events/">Events</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main role="main" id="main" tabindex="0">
+
+  {{content}}
+
+  </main>
+
+  <footer class="white pad-t pad-b-1-2" role="contentinfo" tabindex="0">
+    <div class="grid grid-middle gutter-1-2 text-center">
+      <div class="unit xs-1 m-1 l-1-3 gutter-1-2 pad-b">
+        <a class="inline-block" href="{{site.baseurl}}/">
+          <i class="icon icon-logo"><img class="img-flex" src="{{site.baseurl}}/images/logo-white.svg" alt="Logo of ClayWorks Co-op"></i>
+        </a>
+        <div class="nav-footer">
+          <ul class="nav-list list-group-inline milli push-1">
+            <li class="gutter-1-2"><a class="pad-t-1-4 pad-b-1-8 btn-nav-footer {% if page.url == '/' %}current-footer{% endif %}" href="{{site.baseurl}}/">Home</a></li>
+            <li><a class="pad-t-1-4 pad-b-1-8 btn-nav-footer {% if page.url contains '/classes' %}current-footer{% endif %}" href="{{site.baseurl}}/classes/">Classes</a></li>
+            <li class="gutter-1-2"><a class="pad-t-1-4 pad-b-1-8 btn-nav-footer {% if page.url contains '/artists' or artists.slug %}current-footer{% endif %}" href="{{site.baseurl}}/artists/">Artists</a></li>
+            <li><a class="pad-t-1-4 pad-b-1-8 btn-nav-footer {% if page.url contains '/events' %}current-footer{% endif %}" href="{{site.baseurl}}/events/">Events</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="unit xs-1 m-1-2 l-1-3 gutter-1-2 pad-b-1-2 pad-t">
+        <div class="social">
+          <ul class="list-group-inline push">
+            <li class="gutter-1-8">
+              <a href="https://www.facebook.com">
+                <i class="icon icon-social"><img class="img-flex" src="{{site.baseurl}}/images/facebook.svg" alt="Logo of facebook.com"></i>
+              </a>
+            </li>
+            <li class="gutter-1-8">
+              <a href="https://www.instagram.com/">
+                <i class="icon icon-social"><img class="img-flex" src="{{site.baseurl}}/images/instagram.svg" alt="Logo of instagram.com"></i>
+              </a>
+            </li>
+            <li class="gutter-1-8">
+              <a href="https://twitter.com/?lang=en">
+                <i class="icon icon-social"><img class="img-flex" src="{{site.baseurl}}/images/twitter.svg" alt="Logo of twitter.com"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="contact">
+          <h3 class="mega push-0">Visit us:</h3>
+          <address class="normal milli push-1-2">949b Gladstone Ave<br> Ottawa, ON K1Y3E5</address>
+          <a class="gutter milli btn btn-ghost-reversed push" href="mailto:info.clayworks@gmail.com">info.clayworks@gmail.com</a>
+        </div>
+      </div>
+      <div class="unit xs-1 m-1-2 l-1-3 gutter-1-2 pad-b pad-t">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d630.3351026290679!2d-75.71496356215212!3d45.40397768001269!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd8a7f51cef231e31!2sGladstone+Clayworks+Co-Op!5e0!3m2!1sen!2sca!4v1543529202453" width="240" height="240" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="micro normal max-length text-center">
+      <p class="push-1-2">© ClayWorks © 2018 | All Rights Reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
