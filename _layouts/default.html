@@ -53,7 +53,7 @@
           <ul class="nav-list list-group-inline milli push-1">
             <li class="gutter-1-2"><a class="pad-t-1-4 pad-b-1-8 btn-nav-footer {% if page.url == '/' %}current-footer{% endif %}" href="{{site.baseurl}}/">Home</a></li>
             <li><a class="pad-t-1-4 pad-b-1-8 btn-nav-footer {% if page.url contains '/classes' %}current-footer{% endif %}" href="{{site.baseurl}}/classes/">Classes</a></li>
-            <li class="gutter-1-2"><a class="pad-t-1-4 pad-b-1-8 btn-nav-footer {% if page.url contains '/artists' %}current-footer{% endif %}" href="{{site.baseurl}}/artists/">Artists</a></li>
+            <li class="gutter-1-2"><a class="pad-t-1-4 pad-b-1-8 btn-nav-footer {% if page.url contains '/artists' or artists.slug %}current-footer{% endif %}" href="{{site.baseurl}}/artists/">Artists</a></li>
             <li><a class="pad-t-1-4 pad-b-1-8 btn-nav-footer {% if page.url contains '/events' %}current-footer{% endif %}" href="{{site.baseurl}}/events/">Events</a></li>
           </ul>
         </div>
@@ -80,7 +80,7 @@
           </ul>
         </div>
         <div class="contact">
-          <h3 class="mega push-0">Contact us:</h3>
+          <h3 class="mega push-0">Visit us:</h3>
           <address class="normal milli push-1-2">949b Gladstone Ave<br> Ottawa, ON K1Y3E5</address>
           <a class="gutter milli btn btn-ghost-reversed push" href="mailto:info.clayworks@gmail.com">info.clayworks@gmail.com</a>
         </div>

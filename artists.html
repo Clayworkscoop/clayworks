@@ -1,6 +1,5 @@
 ---
-layout: default-with-banner
-title: Artists
+layout: default
 description: Great opportunity to meet our creative community of professional potters in Ottawa.
 bannerTitle: Pottery galore
 ---
@@ -13,18 +12,20 @@ bannerTitle: Pottery galore
   </div>
 
 <section class="intro pad-t-2 pad-b-2">
-  <div class="grid">
-    <div class="Carol unit xs-1-2 m-1-3 l-1-5 push">
-      <a class="no-under card-link" href="{{site.baseurl}}/artist-carol-lim/">
-        <div class="gutter-1-2">
-          <div class="embed embed-1by1 push-1-2">
-            <img class="img-flex embed-item" src="{{site.baseurl}}/images/circle-green.png" alt="">
+  <ul class="grid">
+    {% for artist in site.artists %}
+      <li class="no-under Carol unit xs-1-2 m-1-3 l-1-5 push">
+        <a class="no-under card-link" href="{{include.data.url}}">
+          <div class="gutter-1-2">
+            <div class="embed embed-1by1 push-1-2">
+              <img class="img-flex embed-item" src="{{site.baseurl}}/images/{{artist.artistImage}}" alt="">
+            </div>
+            <h3 class="giga text-center">{{artist.title}}</h3>
           </div>
-          <h3 class="giga text-center">Carol Lim</h3>
-        </div>
-      </a>
-    </div>
-  </div>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
 </section>
 
 {% include member-apply.html %}

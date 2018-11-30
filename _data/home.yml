@@ -1,0 +1,21 @@
+banner:
+  title: "Pottery Gallore-3"
+  text: "Unique cooperation of professional potters in Ottawa"
+  button: "View our Artists"
+  buttonLink: {{site.baseurl}}/artists/
+  image: "/images/rc-dark.png"
+
+about-us:
+  title: "Lorem2"
+  text: "Lore ispum dorelerrr"
+  button: "Click"
+
+features:
+  title: "Lorem3"
+  text: "Lore ispum dorelerrr"
+  button: "Click"
+
+happenings:
+  title: "Lorem4"
+  text: "Lore ispum dorelerrr"
+  button: "Click"
