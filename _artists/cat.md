@@ -1,8 +1,8 @@
 ---
 layout: artists-profile
-title: Cat Le
+title: Catherine l
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec dui eu tellus tempus iaculis.
-artistImage: circle-dark.png
+artistImage: circle-green.png
 artistImage_alt: Lorem ipsum dolor sit amet
 galleryTitle: Carol's Gallery
 galleryDescription: Nulla vitae arcu in ipsum commodo auctor interdum eleifend justo rinterdum eleifend justo. Suspendisse tempus diam mi, et fa. Suspendisse tempus diam mi, et fa.

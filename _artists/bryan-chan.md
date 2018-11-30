@@ -1,6 +1,6 @@
 ---
 layout: artists-profile
-title: Franco T
+title: Brayn cnah
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec dui eu tellus tempus iaculis.
 artistImage: circle-green.png
 artistImage_alt: Lorem ipsum dolor sit amet

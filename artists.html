@@ -15,7 +15,7 @@ bannerTitle: Pottery galore
   <ul class="grid">
     {% for artist in site.artists %}
       <li class="no-under Carol unit xs-1-2 m-1-3 l-1-5 push">
-        <a class="no-under card-link" href="{{include.data.url}}">
+        <a class="no-under card-link" href="{{artist.url}}">
           <div class="gutter-1-2">
             <div class="embed embed-1by1 push-1-2">
               <img class="img-flex embed-item" src="{{site.baseurl}}/images/{{artist.artistImage}}" alt="">
