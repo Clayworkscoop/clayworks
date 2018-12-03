@@ -1,9 +1,9 @@
 banner:
-  title: "Pottery Gallore-34"
-  text: "Unique cooperation of professional potters in Ottawa"
-  button: "View our Artists"
-  buttonLink: "/artists/"
-  image: "/images/rc-green.png"
+  title: "Fun events"
+  text: "Join our Unique cooperation of professional potters for some fun and creativity."
+  button: "View the calendar"
+  buttonLink: "/events/"
+  image: "/images/rc-dark.png"
 
 about-coop:
   title: "Our Cooperative hoho"
