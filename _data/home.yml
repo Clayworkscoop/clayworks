@@ -1,30 +1,35 @@
 banner:
-  title: "Pottery Gallore-34"
-  text: "Unique cooperation of professional potters in Ottawa"
+  title: "Welcome to Clayworks"
+  text: "We are a non-profit pottery cooperative studio where members can pursue their love for pottery"
   button: "View our Artists"
   buttonLink: "/artists/"
-  image: "/images/rc-green.png"
+  image: "/images/banner.jpg"
 
 about-coop:
-  title: "Our Cooperative hoho"
-  text-1: "lallaLorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec dui eu tellus tempus iaculis. Phasellus quis justo sem. Nam est lacus, gravida fringilla augue facilisis, eleifend mattis augue."
-  text-2: "lallaLorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec dui eu tellus tempus iaculis. Phasellus quis justo sem. Nam est lacus, gravida fringilla augue facilisis, eleifend mattis augue."
+  title: "About the Studio"
+  text-1: "Formed in June, 2003, Gladstone Clayworks is a non profit pottery cooperative studio. It is a place where members pursue their love of clay in a creative, inspiring and supportive atmosphere."
+  text-2: "While developing their own work, members encourage the work of others, work safely at all times, and contribute to the ongoing needs and future stability of the co-operative by offering their time and effort when required.We are housed in what was previously an old bread factory, but is now a building increasingly dedicated to artists and artisans working in a variety of media. The studio itself is a brightly lit, warm space of 1800 square feet. It has easy ground-floor access with parking right outside the door."
   image_1: "/images/circle-green.png"
   image_2: "/images/circle-dark.png"
 
 features:
   title: "Features"
-  text: "Lore ispum dorelerrr"
-  image_1: "/images/sq-green.png"
+  text: "We have new artists every month, teaching members new skills improving mindset and enhancing pottery techniques"
+
+gallery:
+  title: "Our Gallery"
+  text: "Our studio offers a pottery gallery within allowing non-members to walk in a purchase their own pottery to take home"
+  image_1: "/images/gallery.jpg"
 
 happenings:
-  title: "Lorem4"
-  text: "Lore ispum dorelerrr"
-  card_1_title: "ipsum dolor"
+  title: "What is happening at the studio?"
+  text: "Upcoming Events and Classes"
+  card_1_title: "Christmas pottery fun"
   card_1_image: "/images/sq-green.png"
-  card_1_text: "consectetur adipiscing elit. Maecenas nec dui eu tellus te"
+  card_1_text: "Enjoy the holidays with some holiday pottery fun"
   card_1_link: "/classes/"
-  card_2_title: "ipsum dolor"
-  card_2_image: "/images/sq-green.png"
-  card_2_text: ""
+
+  card_2_title: "Christmas pottery fun"
+  card_2_image: "/images/christmas-pottery"
+  card_2_text: "Enjoy the holidays with some holiday pottery fun"
   card_2_link: "/events/"
