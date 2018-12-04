@@ -3,7 +3,7 @@ banner:
   text: "We are a non-profit pottery cooperative studio where members can pursue their love for pottery"
   button: "View our Artists"
   buttonLink: "/artists/"
-  image: "/images/banner.jpg"
+  image: "/images/home-banner.jpg"
 
 about-coop:
   title: "About the Studio"
@@ -19,17 +19,17 @@ features:
 gallery:
   title: "Our Gallery"
   text: "Our studio offers a pottery gallery within allowing non-members to walk in a purchase their own pottery to take home"
-  image_1: "/images/gallery.jpg"
+  image_1: "/images/card-gallery.jpg"
 
 happenings:
   title: "What is happening at the studio?"
   text: "Upcoming Events and Classes"
   card_1_title: "Christmas pottery fun"
-  card_1_image: "/images/sq-green.png"
+  card_1_image: "/images/card-event.jpg"
   card_1_text: "Enjoy the holidays with some holiday pottery fun"
-  card_1_link: "/classes/"
+  card_1_link: "/events/"
 
-  card_2_title: "Christmas pottery fun"
-  card_2_image: "/images/christmas-pottery"
-  card_2_text: "Enjoy the holidays with some holiday pottery fun"
+  card_2_title: "Jump to Spring pottery"
+  card_2_image: "/images/card-class.jpg"
+  card_2_text: "Join us for spring pottery workshop"
   card_2_link: "/events/"

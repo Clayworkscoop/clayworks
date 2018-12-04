@@ -16,10 +16,10 @@ upcoming:
   price: "$400"
   registerLink: "/classes/"
   registerButton: "Register"
-  image: "/images/rc-dark.png"
-  imageAlt: ""
+  image: "/images/brown-clay.jpg"
+  imageAlt: "Simple image of a brown pottery clay"
   descriptionTitle: "Description"
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec dui eu te"
+  description: "Build up your pottery skills by learning how to use brown clay for pottery as well as how to prepare, sculpt and finalize your clay"
 
 next:
   sectionTitle: "Future classes"
@@ -32,10 +32,10 @@ next:
   card-1-price: "$400"
   card-1-registerLink: "/classes/"
   card-1-registerButton: "Register"
-  card-1-image: "/images/rc-green.png"
-  card-1-imageAlt: ""
+  card-1-image: "/images/brown-clay.jpg"
+  card-1-imageAlt: "Simple image of a brown pottery clay"
   card-1-descriptionTitle: "Description"
-  card-1-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec dui eu te"
+  card-1-description: "Build up your pottery skills by learning how to use brown clay for pottery as well as how to prepare, sculpt and finalize your clay"
 
   card-2-title: "Pottery for <br>St. Valentine's"
   card-2-date: "4 Dec.-14 Jan."
