@@ -4,12 +4,12 @@ description: Great opportunity to meet our creative community of professional po
 bannerTitle: Pottery galore
 ---
 
-  <div class="banner pad-t-2 relative push-2">
-    <div class="banner-content text-center pin-c">
-      <h1 class="nina value bold pad-t push-1-2">Dreams to reality</h1>
-      <p class="tera push-2">Meet our artists</p>
-    </div>
+<div class="banner pad-t-2 relative push-2"  style="background-image: url({{site.data.classes.banner.image}})">
+  <div class="banner-content text-center pin-c max-length">
+    <h1 class="nina value bold pad-t push-1-2">{{site.data.artists.banner.title}}</h1>
+    <p class="tera push-2">{{site.data.artists.banner.text}}</p>
   </div>
+</div>
 
 <section class="wrapper pad-t-2 pad-b-2">
   <ul class="grid">
@@ -18,7 +18,7 @@ bannerTitle: Pottery galore
         <a class="no-under card-link" href="{{site.baseurl}}{{artist.url}}">
           <div class="gutter-1-2">
             <div class="embed embed-1by1 push-1-2">
-              <img class="img-flex embed-item" src="{{site.baseurl}}/images/{{artist.artistImage}}" alt="">
+              <img class="img-flex embed-item" src="{{site.baseurl}}/images/{{artist.artistImage}}" alt="{{site.baseurl}}/images/{{artist.artistImageAlt}}">
             </div>
             <h3 class="giga text-center">{{artist.title}}</h3>
           </div>
