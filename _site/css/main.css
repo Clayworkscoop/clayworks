@@ -361,3 +361,9 @@ input[type="checkbox"] + label::before {
   bottom: .5em;
   left: 1em;
 }
+
+.free {
+  background-color: #1b938f;
+  text-transform: uppercase;
+  color: #fff;
+}
