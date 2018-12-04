@@ -1,21 +1,30 @@
 banner:
-  title: "Pottery Gallore"
+  title: "Pottery Gallore-34"
   text: "Unique cooperation of professional potters in Ottawa"
   button: "View our Artists"
   buttonLink: "/artists/"
-  image: "/images/rc-dark.png"
+  image: "/images/rc-green.png"
 
-about-us:
-  title: "Lorem2"
-  text: "Lore ispum dorelerrr"
-  button: "Click"
+about-coop:
+  title: "Our Cooperative hoho"
+  text-1: "lallaLorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec dui eu tellus tempus iaculis. Phasellus quis justo sem. Nam est lacus, gravida fringilla augue facilisis, eleifend mattis augue."
+  text-2: "lallaLorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec dui eu tellus tempus iaculis. Phasellus quis justo sem. Nam est lacus, gravida fringilla augue facilisis, eleifend mattis augue."
+  image_1: "/images/circle-green.png"
+  image_2: "/images/circle-dark.png"
 
 features:
-  title: "Lorem3"
+  title: "Features"
   text: "Lore ispum dorelerrr"
-  button: "Click"
+  image_1: "/images/sq-green.png"
 
 happenings:
   title: "Lorem4"
   text: "Lore ispum dorelerrr"
-  button: "Click"
+  card_1_title: "ipsum dolor"
+  card_1_image: "/images/sq-green.png"
+  card_1_text: "consectetur adipiscing elit. Maecenas nec dui eu tellus te"
+  card_1_link: "/classes/"
+  card_2_title: "ipsum dolor"
+  card_2_image: "/images/sq-green.png"
+  card_2_text: ""
+  card_2_link: "/events/"

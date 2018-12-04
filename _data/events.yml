@@ -1,0 +1,42 @@
+banner:
+  title: "Fun events"
+  text: "Join our Unique cooperation of professional potters for some fun and creativity."
+  button: "View the calendar"
+  buttonLink: "/events/"
+  image: "/images/rc-dark.png"
+
+upcoming:
+  sectionTitle: "Upcoming event"
+  title: "Christmas Pottery Fair"
+  date: "7 Dec."
+  time: "6pm"
+  price: "Free"
+  image: "/images/rc-dark.png"
+  imageAlt: ""
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec dui eu te"
+
+next:
+  sectionTitle: "Future events"
+  card-1-title: "Christmas Pottery Fair"
+  card-1-date: "7 Dec."
+  card-1-time: "6pm"
+  card-1-price: "Free"
+  card-1-image: "/images/rc-dark.png"
+  card-1-imageAlt: ""
+  card-1-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec dui eu te"
+
+  card-2-title: "Pottery for St. Valentine's"
+  card-2-date: "7 Dec."
+  card-2-time: "6pm"
+  card-2-price: "Free"
+  card-2-image: "/images/rc-dark.png"
+  card-2-imageAlt: ""
+  card-2-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec dui eu te"
+
+  card-3-title: "Easter Bunnies and Eggs"
+  card-3-date: "7 Dec."
+  card-3-time: "6pm"
+  card-3-price: "Free"
+  card-3-image: "/images/rc-dark.png"
+  card-3-imageAlt: ""
+  card-3-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec dui eu te"
