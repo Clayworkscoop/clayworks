@@ -22,6 +22,7 @@ artImage_7: "/carol-lim/carol-lim-pottery-7.jpg"
 artImage_7_alt: Side by side of five little gnomes holding leaves.
 artImage_8: "/carol-lim/carol-lim-pottery.jpg"
 artImage_8_alt: Creative bowl like sculpture with a shiny glaze.
+contactArtist_title: Get in touch with the Artist
 contactArtist: Contact Carol
 contactArtist_email: carol_lim@rogers.com
 ---

@@ -15,6 +15,7 @@ about-coop:
 features:
   title: "Features"
   text: "We have new artists every month, teaching members new skills improving mindset and enhancing pottery techniques"
+  image_1: "/images/circle-green.png"
 
 gallery:
   title: "Our Gallery"
@@ -33,3 +34,8 @@ happenings:
   card_2_image: "/images/card-class.jpg"
   card_2_text: "Join us for spring pottery workshop"
   card_2_link: "/events/"
+
+newsletter:
+  title: "Get inspired by our Newsletter"
+  subtitle: "Receive Updates about our Events and Classes"
+  button: "Subscribe"

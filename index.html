@@ -34,7 +34,7 @@ description: Unique cooperation of professional potters in Ottawa.
 </section>
 
 <section class="wrapper pad-t">
-  <div class="grid">
+  <div class="grid grid-middle">
     <div class="unit xs-1 s-1 l-1-2 gutter intro-length push">
       <h2 class="peta bold push-0">{{site.data.home.features.title}}</h2>
       <p class="pad-t">{{site.data.home.features.text}}</p>
@@ -48,17 +48,63 @@ description: Unique cooperation of professional potters in Ottawa.
 </section>
 
 <section class="wrapper pad-t">
-  <div class="grid">
-    <div class="unit xs-1 s-1 l-1-2 gutter intro-length push">
+  <div class="grid grid-middle">
+
+    <div class="unit xs-1 s-1 l-1-2 unit-push-l-1-2 gutter intro-length push">
       <h2 class="peta bold push-0">{{site.data.home.gallery.title}}</h2>
       <p class="pad-t">{{site.data.home.gallery.text}}</p>
     </div>
-    <div class="unit xs-1 s-1 l-1-2 gutter intro-length push">
+    <div class="unit xs-1 s-1 l-1-2 l-1-2 unit-pull-l-1-2 gutter intro-length push">
       <div class="embed embed-3by2">
         <img class="img-flex embed-item" src="{{site.baseurl}}{{site.data.home.gallery.image_1}}" alt="">
       </div>
     </div>
   </div>
+</section>
+
+<section class="featured-artist wrapper pad-t">
+  <div class="">
+  <strong class="green inline-block push-1-2">Featured Artist</strong>
+    <div class="grid grid-middle ">
+      <div class="unit xs-1 m-1-2 l-1-3 gutter pad-t push-2">
+        <div class="embed embed-1by1">
+          <img class="img-flex embed-item" src="{{site.baseurl}}/images/circle-green.png" alt="{{page.artistImage_alt}}">
+        </div>
+      </div>
+      <div class="unit xs-1 s-1 l-2-3 gutter intro-length push-2">
+        <h2 class="tera bold leading-tight push-1-2">Carol Lim</h2>
+        <p>As a clay artist and with a background in interior designer, I enjoy creating hand built functional and non-functional decorative pieces and sculptural work.  I am drawn to the use of hand made stamps and carving to embellish my clay surfaces, and I use oxides, under glazes, and glaze layering to accentuate these textures.  I also enjoy making small sculptures of animals and whimsical characters. I have a special interest in Raku, and enjoy participating in Raku firings any chance I get!</p>
+      </div>
+    </div>
+  </div>
+  <div class="grid grid-middle">
+    <div class="unit xs-1-2 s-1-3 pad-t push-2">
+      <div class="embed embed-1by1">
+        <img class="img-flex embed-item" src="{{site.baseurl}}/images/sq-green.png" alt="{{page.artistImage_alt}}">
+      </div>
+    </div>
+    <div class="unit xs-1-2 s-1-3 pad-t push-2">
+      <div class="embed embed-1by1">
+        <img class="img-flex embed-item" src="{{site.baseurl}}/images/sq-green.png" alt="{{page.artistImage_alt}}">
+      </div>
+    </div>
+    <div class="unit xs-1-2 s-1-3 pad-t push-2">
+      <div class="embed embed-1by1">
+        <img class="img-flex embed-item" src="{{site.baseurl}}/images/sq-green.png" alt="{{page.artistImage_alt}}">
+      </div>
+    </div>
+  </div>
+
+  <!-- <div class="grid grid-middle">
+    <div class="unit xs-1 s-1 l-1-3 gutter pad-t intro-length push-2">
+      <div class="embed embed-1by1">
+        <img class="img-flex embed-item" src="{{site.baseurl}}/images/{{page.artistImage}}" alt="{{page.artistImage_alt}}">
+      </div>
+    </div>
+    <div class="unit xs-1 s-1 l-2-3 gutter intro-length push-2">
+      <h2 class="tera bold leading-tight push-1-2">{{page.title}}</h2>
+    </div>
+  </div> -->
 </section>
 
 <section class="wrapper pad-t-2 pad-b-2">
@@ -97,4 +143,10 @@ description: Unique cooperation of professional potters in Ottawa.
   </div>
 </section>
 
-{% include member-apply.html %}
+<section class="navy-bg pad-t-2 pad-b-2 gutter-1-2 text-center">
+  {% include newsletter.html %}
+</section>
+
+<section class="teal-bg pad-t-2 pad-b">
+  {% include member-apply.html %}
+</section>

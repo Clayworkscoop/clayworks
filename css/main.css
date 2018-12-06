@@ -34,7 +34,8 @@ ul > li::before {
   width: 100%;
 }
 
-.btn-nav:hover {
+.btn-nav:hover,
+.btn-nav:focus {
   background-color: #fff;
   color: #1b938f;
   border-radius: 5px;
@@ -47,7 +48,8 @@ ul > li::before {
   font-weight: 600;
 }
 
-.btn-ghost:hover {
+.btn-ghost:hover,
+.btn-ghost:focus {
   background-color: #1b938f;
   border: solid 2px #1b938f;
   color: #fff;
@@ -66,13 +68,15 @@ ul > li::before {
   color: #fff;
 }
 
-.btn-ghost-reversed:hover {
+.btn-ghost-reversed:hover,
+.btn-ghost-reversed:focus {
   background-color: inherit;
   border: solid 1px #fff;
   color: #fff;
 }
 
-.btn-ghost-member:hover {
+.btn-ghost-member:hover,
+.btn-ghost-member:focus {
   background-color: #0f2639;
   border: solid 2px #0f2639;
   color: #fff;
@@ -85,7 +89,8 @@ ul > li::before {
   font-weight: 600;
 }
 
-.btn-class:hover {
+.btn-class:hover,
+.btn-class:focus {
   background-color: #0f2639;
   border: solid 2px #0f2639;
   color: #fff;
@@ -116,14 +121,6 @@ ul > li::before {
 
 .wrapper {
   background-color: rgba(27, 22, 24, 0);
-}
-
-.orange {
-  color: #ff8b00;
-}
-
-.lato {
-  font-family: lato, sans-serif;
 }
 
 .brown {
@@ -184,13 +181,25 @@ ul > li::before {
   width: 35px;
 }
 
+.social-icon-li {
+  border: solid 1.5px #0f2639;
+  transition: all 0.3s ease-out;
+  border-radius: 50px;
+}
+
+.social-icon-li:hover,
+.social-icon-li:focus {
+  border: solid 1.5px #1b938f;
+}
+
 .btn-nav-footer {
   text-decoration: none;
   border-bottom: 1px solid #1b938f;
   color: #1b938f;
 }
 
-.btn-nav-footer:hover {
+.btn-nav-footer:hover,
+.btn-nav-footer:focus {
   color: #fff;
   border-bottom: 1px solid #fff;
 }
@@ -208,12 +217,6 @@ footer {
 .current-footer {
   color: #fff;
   border-bottom: 1px solid #fff;
-}
-
-.banner-adopt {
-  background: linear-gradient(to top, rgba(27, 22, 24, .3), transparent) no-repeat center top / 100% 100%, url("../images/banner-adopt-1.jpg") no-repeat center center / cover;
-  padding-top: 35%;
-  min-height: 500px;
 }
 
 .hang-punc {
@@ -289,7 +292,8 @@ input[type="checkbox"] + label::before {
   border-top: solid 2px rgba(27, 22, 24, .25);
 }
 
-.link-details:hover {
+.link-details:hover,
+.link-details:focus {
   color: #ff8b00;
 }
 
@@ -331,13 +335,33 @@ input[type="checkbox"] + label::before {
   color: #000;
 }
 
-.card-link:hover {
+.card-link:hover,
+.card-link:focus {
   color: #1b938f;
   font-weight: 600;
 }
 
-.member-apply {
+.navy-bg {
+  background-color: #0f2639;
+}
+
+.teal-bg {
   background-color: #1b938f;
+}
+
+.unit-form {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 20em;
+  width: 90%;
+}
+
+.newsletter-input {
+  display: block;
+  background-color: #fff;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  height: 36px;
 }
 
 .green {
