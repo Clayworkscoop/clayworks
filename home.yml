@@ -1,0 +1,41 @@
+banner:
+  title: "Welcome to Clayworks"
+  text: "We are a non-profit pottery cooperative studio where members can pursue their love for pottery"
+  button: "View our Artists"
+  buttonLink: /artists/
+  image: "/images/home-banner.jpg"
+
+about-us:
+  title: "About the Studio"
+  text: "Gladstone ClayWorks is Ottawa’s only co-operative pottery studio.  We are located in a century-old industrial bakery building in Little Italy, surrounded by other artists and creative collectives, shops and a vibrant urban neighbourhood.
+  We have 25 members who pursue our love of clay in a creative and supportive artist-run space.  Formed in 2003, ClayWorks has continued to thrive and evolve with its diverse membership.  ClayWorks artists show their individually distinctive work in our own gallery as well as in galleries across Ottawa and Canada, and sometimes internationally.  Several members have won awards for their work.  We are open to the public during our fall Open House , spring participation in Doors Open Ottawa and other community events.  Our gallery is open by appointment.	Pottery classes are offered on Teaching Tuesdays, with four  sessions each year where students learn basic and advanced pottery skills.  Private lessons are also available
+  building increasingly dedicated to artists and artisans working in a variety of media. The studio itself is a brightly lit, warm space of 1800 square feet. It has easy ground-floor access with parking right outside the door."
+  button: "View our location"
+
+features:
+  title: "Features"
+  text: "View our main studio features, teaching members new skills improving mindset and enhancing pottery techniques"
+  image: "/images/card-studio-features.jpg"
+  imageAlt: "Image of a stacks of clay"
+  descriptionTitle: "Description"
+  description: "We are a collective studio space; membership involves participating in the work and pleasure of keeping the studio.
+  Members do the work of taking care of the space, loading and firing kilns, mixing glazes, organizing shows in the gallery, cleaning the bathroom,
+  replacing the clay trap in the sink, and the administrative work involved in the co-op. We also have a lot of camaraderie, and benefit from working together as potters with a wide range of interests and styles."
+
+gallery:
+  title: "Our Gallery"
+  text: "Our studio offers a pottery gallery within allowing non-members to walk in a purchase their own pottery to take home"
+  image: "/images/gallery.jpg"
+
+happenings: Upcoming Events
+  cardTitle_1: "New Clay Conference"
+  text: "Gladstone ClayWorks will be participating in the New Clay Conference weekend, as one of the studio tour locations.
+  This is an opportunity to share ideas, meet new artists and participate in the first year of a new clay conference in Eastern Ontario on May 24-26, 2018."
+  button: "More information"
+  image: "/images/card-home-upcoming-event.jpg"
+
+happenings: Future Events
+  cardTitle_1: "Doors Open 2019"
+  text: "During this first weekend of June, Gladstone ClayWorks proudly participates annually in this free City of Ottawa celebration of architecture and heritage.  This is the second largest Doors Open event in Canada."
+  button: "More information"
+  image: "images/card-door-open.jpg"
