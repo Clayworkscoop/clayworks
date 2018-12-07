@@ -7,6 +7,8 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="{{site.baseurl}}/css/site.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Muli:400,600,800" rel="stylesheet">
+  <link rel="shortcut icon" href="./favicon.ico">
+  <link rel="apple-touch-icon" href="./favicon-196.png">
 </head>
 
 <body>
@@ -81,7 +83,7 @@
         </div>
         <div class="contact">
           <h3 class="mega push-0">Visit us:</h3>
-          <address class="normal milli push-1-2">949b Gladstone Ave<br> Ottawa, ON K1Y3E5</address>
+          <address class="normal milli push-1-2">{{site.data.site.location.street_address}}<br> {{site.data.site.location.locality}}, {{site.data.site.location.locality}} {{site.data.site.location.postalCode}}</address>
           <a class="gutter milli btn btn-ghost-reversed push" href="mailto:info@gladstoneclayworks.ca">info.clayworks@gmail.com</a>
         </div>
       </div>
