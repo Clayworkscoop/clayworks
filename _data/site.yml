@@ -1,7 +1,6 @@
-seo:
-  tagline: Unique Cooperative of Professional potters in Ottawa
 location:
-  country: Canada
-  locality: Ottawa
-  region: Ontario
-  street_address: 949b Gladstone Ave
+  country: "Canada"
+  locality: "Ottawa"
+  region: "ON"
+  street_address: "949b Gladstone Ave"
+  postalCode: "K1Y3E5"
