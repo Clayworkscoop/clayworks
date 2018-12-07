@@ -5,10 +5,10 @@ banner:
   buttonLink: /artists/
   image: "/images/home-banner.jpg"
 
-about-us:
+about-coop:
   title: "About the Studio"
-  text: "Gladstone ClayWorks is Ottawa’s only co-operative pottery studio.  We are located in a century-old industrial bakery building in Little Italy, surrounded by other artists and creative collectives, shops and a vibrant urban neighbourhood.
-  We have 25 members who pursue our love of clay in a creative and supportive artist-run space.  Formed in 2003, ClayWorks has continued to thrive and evolve with its diverse membership.  ClayWorks artists show their individually distinctive work in our own gallery as well as in galleries across Ottawa and Canada, and sometimes internationally.  Several members have won awards for their work.  We are open to the public during our fall Open House , spring participation in Doors Open Ottawa and other community events.  Our gallery is open by appointment.	Pottery classes are offered on Teaching Tuesdays, with four  sessions each year where students learn basic and advanced pottery skills.  Private lessons are also available
+  text-1: "Gladstone ClayWorks is Ottawa’s only co-operative pottery studio.  We are located in a century-old industrial bakery building in Little Italy, surrounded by other artists and creative collectives, shops and a vibrant urban neighbourhood."
+  text-2: "We have 25 members who pursue our love of clay in a creative and supportive artist-run space.  Formed in 2003, ClayWorks has continued to thrive and evolve with its diverse membership.  ClayWorks artists show their individually distinctive work in our own gallery as well as in galleries across Ottawa and Canada, and sometimes internationally.  Several members have won awards for their work.  We are open to the public during our fall Open House , spring participation in Doors Open Ottawa and other community events.  Our gallery is open by appointment.	Pottery classes are offered on Teaching Tuesdays, with four  sessions each year where students learn basic and advanced pottery skills.  Private lessons are also available
   building increasingly dedicated to artists and artisans working in a variety of media. The studio itself is a brightly lit, warm space of 1800 square feet. It has easy ground-floor access with parking right outside the door."
   button: "View our location"
 

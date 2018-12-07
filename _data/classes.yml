@@ -13,15 +13,13 @@ upcoming:
   days: "Tuesday evenings"
   time: "6:30 – 9:00pm"
   level: "Beginners"
-  price: "$265 (6 weeks – tax incl)"
-  clay-cost: "$35 (includes glazes and firing) paid directly to instructor at first class."
+  price: "$265 (6 weeks – tax incl) $35 (includes glazes and firing) paid directly to instructor at first class."
   registerLink: "/classes/"
   registerButton: "Register"
   image: "/images/card-wheel-throwing.jpg"
   imageAlt: "Image of a pot being made on the wheel"
   descriptionTitle: "Description"
-  description: "Marie embraced clay in the 90’s through community classes which ignited the path to a career as a maker, instructor and studio technician.
-  A long time member of the Ottawa Guild of Potters, Marie has served as chair on several committees and is a repeat contributor to the infamous Great Bowls of Fire bowl donation."
+  description: "Marie embraced clay in the 90’s through community classes which ignited the path to a career as a maker, instructor and studio technician. A long time member of the Ottawa Guild of Potters, Marie has served as chair on several committees and is a repeat contributor to the infamous Great Bowls of Fire bowl donation."
 
 next:
   sectionTitle: "Future classes"
@@ -31,8 +29,7 @@ next:
   card-1-days: "Tuesday eveningss"
   card-1-time: "6:30 – 9:00pm"
   card-1-level: "Beginners"
-  card-1-price: "$315 (8 weeks – tax incl)"
-  card-1-clay-cost: $35 (includes glazes and firing) paid directly to instructor at first class.
+  card-1-price: "$315 (8 weeks – tax incl) $35 (includes glazes and firing) paid directly to instructor at first class."
   card-1-registerLink: "/classes/"
   card-1-registerButton: "Register"
   card-1-image: "/images/card-hand-building.jpg"
@@ -45,8 +42,7 @@ next:
   later than 48 hours prior to the second scheduled class. Notice must be sent to the Gladstone Clayworks email.gladstoneclayworks@gmail.com. There will be no refund if the student cancels after that.
   For more information please email <gladstoneclayworks@gmail.com>"
 
-  card-2-title: "Intermediate and Advanced Throwing and Handbuilding:
-    Building Skills and Developing a Personal Aesthetic."
+  card-2-title: "Intermediate and Advanced Throwing and Handbuilding:Building Skills and Developing a Personal Aesthetic."
   card-2-date: "March 12 – April 30, 2019"
   card-2-instructor: "Jennifer Whitehead"
   card-2-days: "Tuesday evenings"
