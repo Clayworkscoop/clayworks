@@ -10,8 +10,8 @@ upcoming:
   title: "Wheel Throwing Class / beginner to intermediate "
   date: "Nov 6 – Dec 11"
   instructor: "Marie Hennessey"
-  days: "Tuesday evenings"
-  time: "6:30 – 9:00pm"
+  days: "Tuesday"
+  time: "6:30 – 9pm"
   level: "Beginners"
   price: "$265 (6 weeks – tax incl) $35 (includes glazes and firing) paid directly to instructor at first class."
   registerLink: "/classes/"
@@ -26,8 +26,8 @@ next:
   card-1-title: "Introduction to Hand Building"
   card-1-date: "January 8 – February 26, 2019"
   card-1-instructor: "Carol Lim"
-  card-1-days: "Tuesday evenings"
-  card-1-time: "6:30 – 9:00pm"
+  card-1-days: "Tuesdays"
+  card-1-time: "6:30 – 9pm"
   card-1-level: "Beginners"
   card-1-price: "$315 (8 weeks – tax incl) $35 (includes glazes and firing) paid directly to instructor at first class."
   card-1-registerLink: "/classes/"
@@ -37,17 +37,15 @@ next:
   card-1-descriptionTitle: "Description"
   card-1-description: "This class is an introduction to the construction of hand build forms using the basic techniques of pinching, coiling,
   and slab rolling and the use of some surface decorating will also be explored.  The class is intended for beginners, and students will be shown the
-  basic methods and examples, and will be encouraged to use their imaginations to create their own masterpieces.
-  <strong>Cancellation and Refund Policy</strong> If a registered student drops out after the first class, they will receive a refund of $150.00, provided they give notice no
-  later than 48 hours prior to the second scheduled class. Notice must be sent to the Gladstone Clayworks email.gladstoneclayworks@gmail.com. There will be no refund if the student cancels after that.
+  basic methods and examples, and will be encouraged to use their imaginations to create their own masterpieces. email.gladstoneclayworks@gmail.com. There will be no refund if the student cancels after that.
   For more information please email <gladstoneclayworks@gmail.com>"
 
-  card-2-title: "Intermediate and Advanced Throwing and Handbuilding:Building Skills and Developing a Personal Aesthetic."
+  card-2-title: "Throwing and Handbuilding: Building Skills & Developing a Personal Aesthetic."
   card-2-date: "March 12 – April 30, 2019"
   card-2-instructor: "Jennifer Whitehead"
-  card-2-days: "Tuesday evenings"
-  card-2-time: "6:30 – 9:00pm"
-  card-2-level: "Beginners"
+  card-2-days: "Tuesday"
+  card-2-time: "6:30 – 9pm"
+  card-2-level: "Intermediate and Advanced"
   card-2-price: " $315  (8 weeks - tax incl)"
   card-2-clay-cost: $35 (includes glazes and firing) paid directly to instructor at first class.
   card-2-registerLink: "/classes/"
@@ -59,16 +57,19 @@ next:
   There will be instruction on how to combine forms to produce both functional objects and sculptural forms. (Teapots, large bowls and/or small sculptures.)
   Students will be given individual attention and guidance based on their own strengths, skills and interests. "
 
-  card-3-title: ""
-  card-3-date: ""
-  card-3-instructor: ""
-  card-3-days:
-  card-3-time: ""
-  card-3-level: ""
-  card-3-price: ""
-  card-3-registerLink: "/"
-  card-3-registerButton: ""
-  card-3-image: ""
-  card-3-imageAlt: ""
-  card-3-descriptionTitle: ""
-  card-3-description: ""
+  card-3-title: "Throwing and Handbuilding: Building Skills & Developing a Personal Aesthetic."
+  card-3-date: "March 12 – April 30, 2019"
+  card-3-instructor: "Jennifer Whitehead"
+  card-3-days: "Tuesday"
+  card-3-time: "6:30 – 9pm"
+  card-3-level: "Intermediate and Advanced"
+  card-3-price: " $315  (8 weeks - tax incl)"
+  card-3-clay-cost: $35 (includes glazes and firing) paid directly to instructor at first class.
+  card-3-registerLink: "/classes/"
+  card-3-registerButton: "Register"
+  card-3-image: "/images/card-hand-tool.jpg"
+  card-3-imageAlt: "Image of a pot holding pottery tools"
+  card-3-descriptionTitle: "Description"
+  card-3-description: "The goal of this class is to offer the students an opportunity to develop as craftspeople, to gain confidence in their ability to design and complete more complex projects.
+  There will be instruction on how to combine forms to produce both functional objects and sculptural forms. (Teapots, large bowls and/or small sculptures.)
+  Students will be given individual attention and guidance based on their own strengths, skills and interests. "
