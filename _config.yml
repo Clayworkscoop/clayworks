@@ -1,4 +1,3 @@
-baseurl: /clayworks
 exclude: ['README.md']
 permalink: pretty
 
