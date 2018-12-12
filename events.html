@@ -4,77 +4,71 @@ title: Events
 description: Our creative community of professional potters ClayWorks invites you to our free events.
 ---
 
-  <div class="banner pad-t-2 relative push-2"  style="background-image: url({{site.baseurl}}{{site.data.events.banner.image}})">
-    <div class="banner-content text-center pin-c max-length">
-      <h1 class="zetta value bold pad-t push-1-2">{{site.data.events.banner.title}}</h1>
-      <p class="giga push-2">{{site.data.events.banner.text}}</p>
-      <a class="btn btn-ghost push mega gutter" href="{{site.baseurl}}{{site.data.events.banner.buttonLink}}">{{site.data.events.banner.button}}</a>
+<div class="banner pad-t-2 relative push-2"  style="background-image: url({{site.data.events.banner.image}})">
+  <div class="banner-content text-center bold pin-c max-length">
+    <h1 class="zetta value bold pad-t push-1-2">{{site.data.events.banner.title}}</h1>
+    <p class="giga push-2 max-length-no-center">{{site.data.events.banner.text}}</p>
+    <a class="btn btn-ghost push mega gutter" href="{{site.data.events.banner.buttonLink}}">{{site.data.events.banner.button}}</a>
+  </div>
+</div>
+
+<section class="wrapper pad-t">
+  <div class="grid grid-middle">
+    <div class="unit xs-1 s-1 l-1-2 gutter intro-length push">
+      <strong class="green inline-block push-1-2">{{site.data.events.upcoming.sectionTitle}}</strong>
+      <h2 class="tera bold push-1-2 leading-tight">{{site.data.events.upcoming.title}}</h2>
+      <h3 class="bold mega push-1-2">{{site.data.events.upcoming.date}} <br><span class="small-caps normal kilo ">{{site.data.events.upcoming.time}}</span></h3>
+      <h4 class="normal kilo upper push-0"><span class="free gutter-1-2 pad-t-1-4 pad-b-1-4">{{site.data.events.upcoming.price}}</span></h4>
+      <p class="pad-t push-0">{{site.data.events.upcoming.description}}</p>
+      <a class="green no-under" href="{{site.data.events.upcoming.link}}">{{site.data.events.upcoming.linkText}}</a>
+    </div>
+    <div class="unit xs-1 s-1 l-1-2 gutter intro-length push" id="calendar">
+      <div class="embed embed-1by1">
+        <img class="img-flex embed-item" src="{{site.data.events.upcoming.image}}" alt="{{site.data.events.upcoming.imageAlt}}">
+      </div>
     </div>
   </div>
+</section>
 
-    <section class="wrapper pad-t">
-      <div class="grid grid-middle">
-        <div class="unit xs-1 s-1 l-1-2 gutter intro-length push">
-          <strong class="green inline-block push-1-2">{{site.data.events.upcoming.sectionTitle}}</strong>
-          <h2 class="exa bold push-1-2 leading-tight">{{site.data.events.upcoming.title}}</h2>
-          <h3 class="bold push-1-2">{{site.data.events.upcoming.date}} <br><span class="small-caps">{{site.data.events.upcoming.time}}</span></h3>
-          <h4 class="normal kilo upper push-0"><span class="free gutter-1-2 pad-t-1-4 pad-b-1-4">{{site.data.events.upcoming.price}}</span></h4>
-          <p class="pad-t">{{site.data.events.upcoming.description}}</p>
-        </div>
-        <div class="unit xs-1 s-1 l-1-2 gutter intro-length push">
-          <div class="embed embed-1by1">
-            <img class="img-flex embed-item" src="{{site.baseurl}}{{site.data.events.upcoming.image}}" alt="{{site.data.events.upcoming.imageAlt}}">
+<section class="wrapper pad-t-2 gutter-1-2 push">
+  <strong class="green inline-block push-1-2 gutter-1-2">{{site.data.events.next.sectionTitle}}</strong>
+
+  <div class="grid">
+    <div class="unit xs-1 m-1-3 push">
+      <div class="no-under card-events">
+        <div class="gutter-1-2">
+          <div class="embed embed-1by1 push">
+            <img class="img-flex embed-item" src="{{site.data.events.next.card-1-image}}" alt="{{site.data.events.next.card-1-imageAlt}}">
           </div>
         </div>
       </div>
-    </section>
-    <section class="wrapper pad-t-2 pad-b-2 gutter-1-2 push">
-      <strong class="green inline-block push-1-2 gutter-1-2">{{site.data.events.next.sectionTitle}}</strong>
+    </div>
+    <div class="unit xs-1 m-2-3 push gutter-1-2">
+      <h2 class="mega bold push-1-2 leading-tight-half">{{site.data.events.next.card-1-title}}</h2>
+      <h3 class="bold kilo push-1-2">{{site.data.events.next.card-1-date}} <br><span class="small-caps normal milli">{{site.data.events.next.card-1-time}}</span></h3>
+      <h4 class="normal milli upper push-1-2"><span class="free gutter-1-2 pad-t-1-4 pad-b-1-4">{{site.data.events.next.card-1-price}}</span></h4>
+      <p class="milli push-0">{{site.data.events.next.card-1-description}}</p>
+      <a class="green no-under milli" href="{{site.data.events.next.link-1}}">{{site.data.events.next.linkText-1}}</a>
+    </div>
 
-      <div class="grid">
-        <div class="unit xs-1 m-1-2 l-1-3 push">
-          <div class="no-under card-events">
-            <div class="gutter-1-2">
-              <div class="embed embed-1by1 push">
-                <img class="img-flex embed-item" src="{{site.baseurl}}{{site.data.events.next.card-1-image}}" alt="{{site.data.events.next.card-1-imageAlt}}">
-              </div>
-              <h2 class="giga bold push-1-2 leading-tight-half">{{site.data.events.next.card-1-title}}</h2>
-              <h3 class="bold kilo push-1-2">{{site.data.events.next.card-1-date}} <br><span class="small-caps">{{site.data.events.next.card-1-time}}</span></h3>
-              <h4 class="normal milli upper push-1-2"><span class="free gutter-1-2 pad-t-1-4 pad-b-1-4">{{site.data.events.upcoming.price}}</span></h4>
-              <p class="milli">{{site.data.events.next.card-1-description}}</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="unit xs-1 m-1-2 l-1-3 push">
-          <div class="no-under card-events">
-            <div class="gutter-1-2">
-              <div class="embed embed-1by1 push">
-                <img class="img-flex embed-item" src="{{site.baseurl}}{{site.data.events.next.card-2-image}}" alt="{{site.data.events.next.card-2-imageAlt}}">
-              </div>
-              <h2 class="giga bold push-1-2 leading-tight-half">{{site.data.events.next.card-2-title}}</h2>
-              <h3 class="bold kilo push-1-2">{{site.data.events.next.card-2-date}} <br><span class="small-caps">{{site.data.events.next.card-2-time}}</span></h3>
-              <h4 class="normal milli upper push-1-2"><span class="free gutter-1-2 pad-t-1-4 pad-b-1-4">{{site.data.events.upcoming.price}}</span></h4>
-              <p class="milli">{{site.data.events.next.card-2-description}}</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="unit xs-1 m-1-2 l-1-3 push">
-          <div class="no-under card-events">
-            <div class="gutter-1-2">
-              <div class="embed embed-1by1 push">
-                <img class="img-flex embed-item" src="{{site.baseurl}}{{site.data.events.next.card-3-image}}" alt="{{site.data.events.next.card-3-imageAlt}}">
-              </div>
-              <h2 class="giga bold push-1-2 leading-tight-half">{{site.data.events.next.card-3-title}}</h2>
-              <h3 class="bold kilo push-1-2">{{site.data.events.next.card-3-date}} <br><span class="small-caps">{{site.data.events.next.card-3-time}}</span></h3>
-              <h4 class="normal milli upper push-1-2"><span class="free gutter-1-2 pad-t-1-4 pad-b-1-4">{{site.data.events.upcoming.price}}</span></h4>
-              <p class="milli">{{site.data.events.next.card-3-description}}</p>
-            </div>
+    <div class="unit xs-1 m-1-3 push">
+      <div class="no-under card-events">
+        <div class="gutter-1-2">
+          <div class="embed embed-1by1 push">
+            <img class="img-flex embed-item" src="{{site.data.events.next.card-2-image}}" alt="{{site.data.events.next.card-2-imageAlt}}">
           </div>
         </div>
       </div>
-    </section>
-    <section class="teal-bg pad-t-2 pad-b-2 gutter-1-2 text-center">
-      {% include newsletter.html %}
-    </section>
+    </div>
+    <div class="unit xs-1 m-2-3 push gutter-1-2">
+      <h2 class="mega bold push-1-2 leading-tight-half">{{site.data.events.next.card-2-title}}</h2>
+      <h3 class="bold kilo push-1-2">{{site.data.events.next.card-2-date}} <br><span class="small-caps normal milli">{{site.data.events.next.card-2-time}}</span></h3>
+      <h4 class="normal milli upper push-1-2"><span class="free gutter-1-2 pad-t-1-4 pad-b-1-4">{{site.data.events.next.card-2-price}}</span></h4>
+      <p class="milli push-0">{{site.data.events.next.card-2-description}}</p>
+      <a class="green no-under milli" href="{{site.data.events.next.link-2}}">{{site.data.events.next.linkText-2}}</a>
+    </div>
+  </div>
+</section>
+<section class="teal-bg pad-t-2 pad-b-2 gutter-1-2 text-center">
+  {% include newsletter.html btnhover='btnhover-navy' %}
+</section>
