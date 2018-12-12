@@ -1,24 +1,25 @@
 banner:
-  title: "Fun events"
+  title: "Fun Events"
   text: "Join our Unique cooperation of professional potters for some fun and creativity."
-  button: "View the calendar"
-  buttonLink: "/events/"
-  image: "/images/events-banner.jpg"
+  button: "View the Calendar"
+  buttonLink: "#calendar"
+  image: "/images/banner-events.jpg"
 
 upcoming:
-  sectionTitle: "Upcoming event"
+  sectionTitle: "Upcoming Event"
   title: "New Clay Conference"
-  date: "May 24-26, 2019"
+  date: "May 24–26, 2019"
   time: "10am - 4pm"
   price: "Free"
   image: "/images/card-home-upcoming-event.jpg"
   imageAlt: "Image of pottery standing side by side"
   description: "Gladstone ClayWorks will be participating in the New Clay Conference weekend, as one of the studio tour locations.
-  This is an opportunity to share ideas, meet new artists and participate in the first year of a new clay conference in Eastern Ontario on May 24-26, 2018.
-  www.newclayconference,com"
+  This is an opportunity to share ideas, meet new artists and participate in the first year of a new clay conference in Eastern Ontario on May 24-26, 2018."
+  linkText: "www.newclayconference.com"
+  link: "www.newclayconference.com"
 
 next:
-  sectionTitle: "Future events"
+  sectionTitle: "Future Events"
   card-1-title: "Doors Open 2019"
   card-1-date: "June 1-2 , 2019"
   card-1-time: "10am - 4pm"
@@ -26,6 +27,8 @@ next:
   card-1-image: "/images/card-door-open.jpg"
   card-1-imageAlt: "Image of three lovely white pots"
   card-1-description: "During this first weekend of June, Gladstone ClayWorks proudly participates annually in this free City of Ottawa celebration of architecture and heritage.  This is the second largest Doors Open event in Canada. "
+  link-1: ""
+  linkText-1: ""
 
   card-2-title: "Clayworks Open House"
   card-2-date: " October 2019"
@@ -35,12 +38,5 @@ next:
   card-2-imageAlt: "Image of a woman molding the pot together"
   card-2-description: "In collaboration with EBA, Gladstone ClayWorks participates in a Open House event welcoming the public into our studio to meet our talented artists and showcase their  ceramic pieces,
   demonstrating the bounds of the clay medium. A theme for this event often provides fascinating inspiration and unique one of a kind ceramic pieces."
-
-  card-3-title: "Clayworks Open House"
-  card-3-date: " October 2019"
-  card-3-time: "6:30pm - 9pm"
-  card-3-price: "Free"
-  card-3-image: "/images/card-open-house.jpg"
-  card-3-imageAlt: "Image of a woman molding the pot together"
-  card-3-description: "In collaboration with EBA, Gladstone ClayWorks participates in a Open House event welcoming the public into our studio to meet our talented artists and showcase their  ceramic pieces,
-  demonstrating the bounds of the clay medium. A theme for this event often provides fascinating inspiration and unique one of a kind ceramic pieces."
+  link-2: ""
+  linkText-2: ""
