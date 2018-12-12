@@ -1,61 +1,37 @@
 banner:
-  button: View our Artists
-  buttonLink: /artists/
-  image: /images/home-banner.jpg
-  text: >-
-    We are a non-profit pottery cooperative studio where members can pursue
-    their love for pottery
-  title: Creativity is a way of life!
+  button: "View our Artists"
+  buttonLink: "/artists/"
+  image: "/images/home-banner.jpg"
+  text: "We are a non-profit pottery cooperative studio where members can pursue their love for pottery"
+  title: "Creativity is a way of life!"
 about-coop:
-  image_1: /images/card-studio-features.jpg
-  image_2: /images/circle-coop.jpg
-  text-1: >-
-    We have 25 members who pursue our love of clay in a creative and supportive
-    artist-run space.  Formed in 2003, ClayWorks has continued to thrive and
-    evolve with its diverse membership.  ClayWorks artists show their
-    individually distinctive work in our own gallery as well as in galleries
-    across Ottawa and Canada, and sometimes internationally.  Several members
-    have won awards for their work.
-  text-2: >-
-    Pottery classes are offered on Teaching Tuesdays, with four  sessions each
-    year where students learn basic and advanced pottery skills.  Private
-    lessons are also availablebuilding increasingly dedicated to artists and
-    artisans working in a variety of media. We are open to the public during our
-    fall Open House, spring participation in Doors Open Ottawa and other
-    community events.
-  title-1: About the Studio
-  title-2: Our Passion
+  image_1: "/images/card-studio-features.jpg"
+  image_2: "/images/circle-coop.jpg"
+  text-1: "We have 25 members who pursue our love of clay in a creative and supportive artist-run space.  Formed in 2003, ClayWorks has continued to thrive and
+    evolve with its diverse membership.  ClayWorks artists show their individually distinctive work in our own gallery as well as in galleries across Ottawa and Canada, and sometimes internationally.  Several members have won awards for their work."
+  text-2: "Pottery classes are offered on Teaching Tuesdays, with four  sessions each year where students learn basic and advanced pottery skills.  Private lessons are also availablebuilding increasingly dedicated to artists and artisans working in a variety of media. We are open to the public during our fall Open House, spring participation in Doors Open Ottawa and other community events."
+  title-1: "About the Studio"
+  title-2: "Our Passion"
 features:
-  image_1: /images/card-studio-features-2.jpg
-  text: >-
-    View our main studio features, teaching members new skills improving mindset
-    and enhancing pottery techniques. Gladstone ClayWorks is Ottawa’s only
-    co-operative pottery studio. We are located in a century-old industrial
-    bakery building in Little Italy, surrounded by other artists and creative
-    collectives, shops and a vibrant urban neighbourhood. The studio itself is a
-    brightly lit, warm space of 1800 square feet. It has easy ground-floor
-    access with parking right outside the door.
-  title: Studio Features
+  image_1: "/images/card-studio-features-2.jpg"
+  text: "View our main studio features, teaching members new skills improving mindset and enhancing pottery techniques. Gladstone ClayWorks is Ottawa’s only co-operative pottery studio. We are located in a century-old industrial bakery building in Little Italy, surrounded by other artists and creative collectives, shops and a vibrant urban neighbourhood. The studio itself is a brightly lit, warm space of 1800 square feet. It has easy ground-floor access with parking right outside the door."
+  title: "Studio Features"
 gallery:
-  image_1: /images/gallery.jpg
-  text: >-
-    Our studio offers a pottery gallery within allowing non-members to walk in a
-    purchase their own pottery to take home. Come visit our gallery to view work
-    of our members. Our gallery is open by appointment.
-  title: Our Gallery
+  image_1: "/images/gallery.jpg"
+  text: "Our studio offers a pottery gallery within allowing non-members to walk in a purchase their own pottery to take home. Come visit our gallery to view work of our members. Our gallery is open by appointment."
+  title: "Our Gallery"
 happenings:
-  card_1_link: /classes/
-  card_2_link: /events/
-  text: Stay up-to-date with what exciting things are happening at the Studio.
-  title: Our upcoming activities
+  card_1_link: "/classes/"
+  card_2_link: "/events/"
+  text: "Stay up-to-date with what exciting things are happening at the Studio."
+  title: "Our upcoming activities"
 newsletter:
-  button: Subscribe
-  email-to: info@gladstoneclayworks.ca
-  subtitle: Receive Updates about our Events and Classes
-  title: Get inspired by our Newsletter
+  button: "Subscribe"
+  email-to: "info@gladstoneclayworks.ca"
+  subtitle: "Receive Updates about our Events and Classes"
+  title: "Get inspired by our Newsletter"
 membership:
-  button: Apply now
-  formLink: >-
-    https://docs.google.com/document/d/1BJKkcf9HXQCtmgWcWqsryBva0na-w3lRPKXpC5zpIow/edit
-  subtitle: 1. Download the form. 2. Fill it out. 3. Email it.
-  title: Interested in becoming a member?
+  button: "Apply now"
+  formLink: "https://docs.google.com/document/d/1BJKkcf9HXQCtmgWcWqsryBva0na-w3lRPKXpC5zpIow/edit"
+  subtitle: "1. Download the form. 2. Fill it out. 3. Email it."
+  title: "Interested in becoming a member?"
