@@ -7,7 +7,8 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="/css/site.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Muli:400,600,800" rel="stylesheet">
-  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="./favicon.ico">
+  <link rel="apple-touch-icon" href="./favicon-196.png">
 </head>
 
 <body>
@@ -63,18 +64,18 @@
       <div class="unit xs-1 m-1-2 l-1-3 gutter-1-2 pad-b-1-2 pad-t">
         <div class="social">
           <ul class="list-group-inline push">
-            <li class="gutter-1-8">
-              <a href="https://www.facebook.com">
+            <li class="gutter-1-4">
+              <a class="social-icon-li inline-block island-1-4" href="https://www.facebook.com/GladstoneClayworksPotteryCoOp">
                 <i class="icon icon-social"><img class="img-flex" src="/images/facebook.svg" alt="Logo of facebook.com"></i>
               </a>
             </li>
-            <li class="gutter-1-8">
-              <a href="https://www.instagram.com/">
+            <li class="gutter-1-4">
+              <a class="social-icon-li inline-block island-1-4" href="https://www.instagram.com/gladstone_clayworks/">
                 <i class="icon icon-social"><img class="img-flex" src="/images/instagram.svg" alt="Logo of instagram.com"></i>
               </a>
             </li>
-            <li class="gutter-1-8">
-              <a href="https://twitter.com/?lang=en">
+            <li class="gutter-1-4">
+              <a class="social-icon-li inline-block island-1-4" href="https://twitter.com/GladstoneClay">
                 <i class="icon icon-social"><img class="img-flex" src="/images/twitter.svg" alt="Logo of twitter.com"></i>
               </a>
             </li>
@@ -82,8 +83,8 @@
         </div>
         <div class="contact">
           <h3 class="mega push-0">Visit us:</h3>
-          <address class="normal milli push-1-2">949b Gladstone Ave<br> Ottawa, ON K1Y3E5</address>
-          <a class="gutter milli btn btn-ghost-reversed push" href="mailto:info.clayworks@gmail.com">info.clayworks@gmail.com</a>
+          <address class="normal milli push-1-2">{{site.data.site.location.street_address}}<br> {{site.data.site.location.locality}}, {{site.data.site.location.locality}} {{site.data.site.location.postalCode}}</address>
+          <a class="gutter milli btn btn-ghost-reversed push" href="mailto:{{site.data.site.email}}">{{site.data.site.email}}</a>
         </div>
       </div>
       <div class="unit xs-1 m-1-2 l-1-3 gutter-1-2 pad-b pad-t">

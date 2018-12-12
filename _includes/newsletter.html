@@ -3,10 +3,15 @@
     <p class="milli push gutter-2 white">{{site.data.home.newsletter.subtitle}}</p>
 
   </div>
-  <div class="unit-form push">
-    <label class="kilo push-1-4" for="email-subscribe"></label>
-    <input class="newsletter-input" id="email-subscribe" type="email" name="email-subscribe" value="" placeholder="Sign up for our Newsletter">
-  </div>
-  <div>
-    <button class="gutter mega btn btn-ghost-member" type="submit">{{site.data.home.newsletter.button}}</button>
+  <div class="unit-form">
+    <form action="https://formspree.io/{{site.data.home.newsletter.email-to}}" method="POST">
+      <label class="milli white push-1-4 text-left" for="last-name">Your Name</label>
+      <input class="newsletter-input push-1-2" id="last-name" type="text" name="nickname" value="" placeholder="First and Last Name" required>
+
+      <label class="milli white push-1-4 text-left" for="email-subscribe">Your email</label>
+      <input class="newsletter-input push" id="email-subscribe" type="email" name="email-subscribe" value="" placeholder="Sign up for our Newsletter" required>
+      <div class="pad-t-1-2">
+        <button class="gutter mega btn {{include.btnhover}}" type="submit">{{site.data.home.newsletter.button}}</button>
+      </div>
+      <input type="hidden" name="_subject" value="Sign me up for ClayWorks Studio Newsletter">
   </div>

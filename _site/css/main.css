@@ -13,6 +13,7 @@ ul > li::before {
 .banner {
   background: linear-gradient(to top, rgba(27, 22, 24, .3), transparent) no-repeat center top / 100% 100%, no-repeat center top / cover;
   padding-top: 47%;
+  background-size: cover;
   min-height: 500px;
 }
 
@@ -45,7 +46,7 @@ ul > li::before {
   background-color: inherit;
   border: solid 2px #fff;
   color: #fff;
-  font-weight: 600;
+  font-weight: bold;
 }
 
 .btn-ghost:hover,
@@ -55,11 +56,37 @@ ul > li::before {
   color: #fff;
 }
 
-.btn-ghost-member {
+/* .btn-ghost-member {
   background-color: inherit;
   border: solid 2px #fff;
   color: #fff;
   font-weight: 600;
+} */
+
+.btnhover-green {
+  background-color: inherit;
+  border: solid 2px #fff;
+  color: #fff;
+}
+
+.btnhover-green:hover,
+.btnhover-green:focus {
+  background-color: #1b938f;
+  border: solid 2px #1b938f;
+  color: #fff;
+}
+
+.btnhover-navy {
+  background-color: inherit;
+  border: solid 2px #fff;
+  color: #fff;
+}
+
+.btnhover-navy:hover,
+.btnhover-navy:focus {
+  background-color: #0f2639;
+  border: solid 2px #0f2639;
+  color: #fff;
 }
 
 .btn-ghost-reversed {
@@ -75,12 +102,30 @@ ul > li::before {
   color: #fff;
 }
 
-.btn-ghost-member:hover,
+.btn-fake {
+  background-color: inherit;
+  border: solid 2px #1b938f;
+  border-radius: 5px;
+  color: #1b938f;
+  font-weight: 600;
+  transition: all .1s ease-out;
+}
+
+.card-link:hover .btn-fake {
+  background-color: #1b938f;
+  border: solid 2px #1b938f;
+  border-radius: 5px;
+  color: #fff;
+}
+
+
+
+/* .btn-ghost-member:hover,
 .btn-ghost-member:focus {
   background-color: #0f2639;
   border: solid 2px #0f2639;
   color: #fff;
-}
+} */
 
 .btn-class {
   background-color: #1b938f;
@@ -299,11 +344,6 @@ input[type="checkbox"] + label::before {
 
 /* ------------ events page ----------- */
 
-.banner-event {
-  background: linear-gradient(to top, rgba(27, 22, 24, .3), transparent) no-repeat center top / 100% 100%, url("../images/banner-rescue-2.jpg") no-repeat center center  / cover;
-  padding-top: 35%;
-  min-height: 500px;
-}
 
 .txt-left-right-left {
   text-align: left;
@@ -328,18 +368,22 @@ input[type="checkbox"] + label::before {
 
 .card-link {
   color: #0f2639;
-  font-weight: 600;
 }
 
 .card-events {
   color: #000;
 }
 
-.card-link:hover,
-.card-link:focus {
+.card-link:hover h3,
+.card-link:focus h3 {
   color: #1b938f;
-  font-weight: 600;
 }
+
+.card-link:hover strong,
+.card-link:focus strong {
+  color: #0f2639;
+}
+
 
 .navy-bg {
   background-color: #0f2639;
@@ -390,4 +434,19 @@ input[type="checkbox"] + label::before {
   background-color: #1b938f;
   text-transform: uppercase;
   color: #fff;
+}
+
+h2 {
+  color: #0f2639;
+}
+
+.featured-artist {
+  background-color: #eef3f4;
+}
+
+.hang-punc {
+  float: left;
+  margin-left: -1.4em;
+  text-align: right;
+  width: 1.3em;
 }

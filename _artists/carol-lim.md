@@ -1,7 +1,6 @@
 ---
 layout: artists-profile
 title: Carol Lim
-description: Carol enjoys creating hand built functional and non-functional decorative pieces and sculptural work
 artistImage: "/carol-lim/carol-lim.png"
 artistImage_alt: Photo of Carol Lim
 galleryTitle: Carol's Gallery
