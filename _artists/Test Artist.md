@@ -1,7 +1,7 @@
 ---
 layout: artists-profile
-title: Carol Lim
-artistImage: "images/carol-lim/carol-lim.png"
+title: Test Artist
+artistImage: "/images/carol-lim/carol-lim-pottery-8.jpg"
 artistImage_alt: Photo of Carol Lim
 galleryTitle: Carol's Gallery
 galleryDescription: Carol have had pieces accepted in the Ottawa Guild of Potters juried exhibitions for 2016, 2017, and 2018
