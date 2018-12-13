@@ -70,13 +70,13 @@ description: Unique cooperation of professional potters in Ottawa.
       <div class="grid grid-middle">
         <div class="unit xs-1 m-1-3 l-1-3 gutter text-center">
           <div class="embed embed-1by1 push">
-            <img class="img-flex embed-item" src="{{artist.artistImage}}" alt="{{artist.artistImage_alt}}">
+            <img class="img-flex embed-item" src="{{artist.artistImage}}" alt="{{artist.artistImage_alt}}" id="featured-artist-thumb">
           </div>
-          <h2 class="mega bold leading-tight push-1-2">{{artist.title}}</h2>
+          <h2 class="mega bold leading-tight push-1-2" id="featured-artist-title">{{artist.title}}</h2>
           <strong class="green normal inline-block push">Featured Artist</strong>
         </div>
         <div class="unit xs-1 m-2-3 l-2-3 gutter">
-          <p class="gutter-1-8"><span class="bold green hang-punc">“</span>{{artist.content}}<span class="bold green"> ”</span></p>
+          <div class="gutter-1-8"><span class="bold green hang-punc">“</span><div id="featured-artist-content">{{artist.content}}</div><span class="bold green"> ”</span></div>
         </div>
       </div>
     </div>
@@ -84,22 +84,22 @@ description: Unique cooperation of professional potters in Ottawa.
   <div class="grid grid-middle">
     <div class="unit xs-1-2 m-1-4">
       <div class="embed embed-1by1">
-        <img class="img-flex embed-item" src="{{artist.artImage_1}}" alt="{{artist.artImage_1_alt}}">
+        <img class="img-flex embed-item" src="{{artist.artImage_1}}" alt="{{artist.artImage_1_alt}}" id="featured-artist-image-1">
       </div>
     </div>
     <div class="unit xs-1-2 m-1-4">
       <div class="embed embed-1by1">
-        <img class="img-flex embed-item" src="{{artist.artImage_2}}" alt="{{artist.artImage_2_alt}}">
+        <img class="img-flex embed-item" src="{{artist.artImage_2}}" alt="{{artist.artImage_2_alt}}" id="featured-artist-image-2">
       </div>
     </div>
     <div class="unit xs-1-2 m-1-4">
       <div class="embed embed-1by1">
-        <img class="img-flex embed-item" src="{{artist.artImage_3}}" alt="{{artist.artImage_3_alt}}">
+        <img class="img-flex embed-item" src="{{artist.artImage_3}}" alt="{{artist.artImage_3_alt}}" id="featured-artist-image-3">
       </div>
     </div>
     <div class="unit xs-1-2 m-1-4">
       <div class="embed embed-1by1">
-        <img class="img-flex embed-item" src="{{artist.artImage_4}}" alt="{{artist.artImage_4_alt}}">
+        <img class="img-flex embed-item" src="{{artist.artImage_4}}" alt="{{artist.artImage_4_alt}}" id="featured-artist-image-4">
       </div>
     </div>
   </div>
@@ -157,3 +157,54 @@ description: Unique cooperation of professional potters in Ottawa.
 <section class="teal-bg pad-t-2 pad-b">
   {% include member-apply.html btnhover='btnhover-navy' %}
 </section>
+
+<script>
+  var allArtists = [
+    {% for artist in site.artists %}
+      {
+        title: "{{artist.title}}",
+        content: "{{artist.content | strip_newlines}}",
+        thumbUrl: "{{artist.artistImage}}",
+        thumbAlt: "{{artist.artistImage_alt}}",
+        images: [
+          {
+            url: "{{artist.artImage_1}}",
+            alt: "{{artist.artImage_1_alt}}",
+          },
+          {
+            url: "{{artist.artImage_2}}",
+            alt: "{{artist.artImage_2_alt}}",
+          },
+          {
+            url: "{{artist.artImage_3}}",
+            alt: "{{artist.artImage_3_alt}}",
+          },
+          {
+            url: "{{artist.artImage_4}}",
+            alt: "{{artist.artImage_4_alt}}",
+          },
+        ]
+      },
+    {% endfor %}
+  ];
+
+  var randArtist = allArtists[Math.floor(Math.random() * allArtists.length)];
+  var artistTitle = document.getElementById('featured-artist-title');
+  var artistContent = document.getElementById('featured-artist-content');
+  var artistThumb = document.getElementById('featured-artist-thumb');
+  var images = [
+    document.getElementById('featured-artist-image-1'),
+    document.getElementById('featured-artist-image-2'),
+    document.getElementById('featured-artist-image-3'),
+    document.getElementById('featured-artist-image-4'),
+  ];
+
+  artistTitle.innerHTML = randArtist.title;
+  artistContent.innerHTML = randArtist.content;
+  artistThumb.src = randArtist.thumbUrl;
+  artistThumb.setAttribute('alt', randArtist.thumbAlt);
+  randArtist.images.forEach(function (img, i) {
+    images[i].src = img.url;
+    images[i].setAttribute('alt', img.alt);
+  });
+</script>
