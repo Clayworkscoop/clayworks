@@ -1,14 +1,14 @@
 ---
 layout: artists-profile
-title: Test Artist
-artistImage: "/images/carol-lim/carol-lim-pottery-8.jpg"
+title: Test Artist1
+artistImage: "/images/carol-lim/carol-lim.png"
 artistImage_alt: Photo of Carol Lim
 galleryTitle: Carol's Gallery
 galleryDescription: Carol have had pieces accepted in the Ottawa Guild of Potters juried exhibitions for 2016, 2017, and 2018
 artImage_1: "/images/carol-lim/carol-lim-pottery-9.jpg"
 artImage_1_alt: Pottery work showing a full body view of a Zebra.
 artImage_2: "/images/carol-lim/carol-lim-pottery-8.jpg"
-artImage_2_alt: Pottery how of a unique style pot for plants or other items.
+artImage_2_alt: "Pottery how of a unique style pot for plants or other items."
 artImage_3: "/images/carol-lim/carol-lim-pottery-3.jpg"
 artImage_3_alt: Simple pottery with beautiful fish artwork.
 artImage_4: "/images/carol-lim/carol-lim-pottery-2.jpg"
